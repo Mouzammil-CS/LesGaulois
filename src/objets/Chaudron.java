@@ -2,13 +2,22 @@ package objets;
 
 public class Chaudron {
 	private int quantitePotion;
-	private int forcepPotion;
-	public Chaudron(int quantitePotion, int forcepPotion) {
-		this.quantitePotion = quantitePotion;
-		this.forcepPotion = forcepPotion;
+	private int forcePotion;
+	
+	public Boolean resterPotion() {
+		if (quantitePotion>0) {
+			return true;
+		}
+		else {
+			quantitePotion = 0;
+			return false;
+		}	
 	}
 	
-	public void remplirChaudron() {
+	public void remplirChaudron(int quantite,int forcePotion) {
+		this.quantitePotion = quantite;
+		this.forcePotion = forcePotion;
+		
 		
 	}
 	

@@ -9,11 +9,26 @@ public class Druide {
 		this.nom = nom;
 		this.force = force;
 	}
+	public String getNom() {
+		return nom;
+	}
 	
-	public void fabriquerPotion(int quantite,Chaudron forcePotion) {
-		
+	public void parler(String texte) {
+		System.out.println(prendreParole() + "\"" + texte + "\"" );
 		
 	}
+	private String prendreParole() {
+		return "Le Druide" + ' ' + nom + ":";
+	}
+	
+	public void fabriquerPotion(int quantite,int forcePotion) {
+		parler("J'ai concocté" + ' ' + quantite + ' ' + "doses de potion magique. Elle a une force de" + ' ' + forcePotion);	
+	}
+	
+	public void booster(Gaulois gaulois) {
+		
+	}
+	
 	
 	
 

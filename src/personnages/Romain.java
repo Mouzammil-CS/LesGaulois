@@ -24,10 +24,11 @@ public class Romain {
 	public void recevoirCoup(int forceCoup) {
 		force = force - forceCoup;
 		if (force < 1) {
+			force = 0;
 			parler("J'abandonne !");
 		}
 		else {
-			parler("Aïe");
+			parler("AÃ¯e");
 		}
 		
 		

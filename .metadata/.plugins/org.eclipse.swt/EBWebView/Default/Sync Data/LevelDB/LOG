@@ -1,3 +1,2 @@
-2025/10/03-19:47:14.669 1604 Reusing MANIFEST C:\Users\mouza\OneDrive\Documents\ILU1\TPs\workspace\LesGaulois\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
-2025/10/03-19:47:14.672 1604 Recovering log #3
-2025/10/03-19:47:14.672 1604 Reusing old log C:\Users\mouza\OneDrive\Documents\ILU1\TPs\workspace\LesGaulois\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/000003.log 
+2025/10/03-19:49:00.543 42e4 Creating DB C:\Users\mouza\OneDrive\Documents\ILU1\TPs\workspace\LesGaulois\src\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB since it was missing.
+2025/10/03-19:49:00.559 42e4 Reusing MANIFEST C:\Users\mouza\OneDrive\Documents\ILU1\TPs\workspace\LesGaulois\src\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001

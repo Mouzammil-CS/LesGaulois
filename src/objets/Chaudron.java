@@ -1,7 +1,9 @@
 package objets;
 
+import personnages.Druide;
+
 public class Chaudron {
-	private int quantitePotion;
+	private  int quantitePotion;
 	private int forcePotion;
 	
 	public Boolean resterPotion() {
@@ -15,11 +17,11 @@ public class Chaudron {
 	}
 	
 	public void remplirChaudron(int quantite,int forcePotion) {
-		this.quantitePotion = quantite;
+		this.quantitePotion = quantitePotion;
 		this.forcePotion = forcePotion;
 		
-		
 	}
+	
 	
 
 }

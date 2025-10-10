@@ -17,11 +17,18 @@ public class Chaudron {
 	}
 	
 	public void remplirChaudron(int quantite,int forcePotion) {
-		this.quantitePotion = quantitePotion;
+		this.quantitePotion = quantite;
 		this.forcePotion = forcePotion;
-		
 	}
 	
+	public void prendreLouche() {
+		quantitePotion -= 1;
+	}
+
+	public int getForcePotion() {
+		return forcePotion;
+	}
+
 	
 
 }

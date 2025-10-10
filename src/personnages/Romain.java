@@ -1,5 +1,7 @@
 package personnages;
 
+import objets.Chaudron;
+
 public class Romain {
 	private String nom;
 	private int force;
@@ -21,8 +23,9 @@ public class Romain {
 		return "Le romain " + nom + " : ";
 	}
 
-	public void recevoirCoup(int forceCoup) {
-		force = force - forceCoup;
+	public void recevoirCoup(int forceCoup, int effetPotion) {
+		int nouv_force = forceCoup * effetPotion;
+		force = force - nouv_force ;
 		if (force < 1) {
 			force = 0;
 			parler("J'abandonne !");

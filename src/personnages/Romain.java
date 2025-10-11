@@ -25,7 +25,7 @@ public class Romain {
 
 	public void recevoirCoup(int forceCoup, int effetPotion) {
 		int nouv_force = forceCoup * effetPotion;
-		force = force - nouv_force ;
+		force = nouv_force /3 ;
 		if (force < 1) {
 			force = 0;
 			parler("J'abandonne !");

@@ -4,9 +4,12 @@ public class Gaulois {
 	private String nom;
 	private int force;
 	private int effetPotion=1;
+	private Village[] village;
 	public Gaulois(String nom, int force) {
 		this.nom = nom;
 		this.force = force;
+		this.village = null;
+		
 	}
 
 	public String getNom() {
@@ -45,6 +48,10 @@ public class Gaulois {
 		return getNom();
 	}
 	
+	
+		
+	
+
 	
 
 	

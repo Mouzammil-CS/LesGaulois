@@ -1,6 +1,6 @@
 package personnages;
 
-import java.util.Arrays;
+
 
 public class Village {
     private String nom;

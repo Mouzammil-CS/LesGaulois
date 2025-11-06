@@ -1,6 +1,6 @@
 package personnages;
 
-import objets.Chaudron;
+
 
 public class Romain {
 	private String nom;

@@ -1,6 +1,6 @@
 package objets;
 
-import personnages.Druide;
+
 
 public class Chaudron {
 	private  int quantitePotion;
@@ -28,7 +28,4 @@ public class Chaudron {
 	public int getForcePotion() {
 		return forcePotion;
 	}
-
-	
-
 }

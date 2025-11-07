@@ -26,14 +26,14 @@ public class Druide {
 	
 	public void fabriquerPotion(int quantite,int forcePotion) {
 		chaudron.remplirChaudron(quantite,forcePotion);
-		parler("J'ai concoctÃ©" + ' ' + quantite + ' ' + "doses de potion magique. Elle a une force de" + ' ' + forcePotion + ".");
+		parler("J'ai concocté" + ' ' + quantite + ' ' + "doses de potion magique. Elle a une force de" + ' ' + forcePotion + ".");
 		
 	}
 	
 	public void booster(Gaulois gaulois) {
 		if (chaudron.resterPotion()==true) {
-			if (gaulois.getNom() == "ObÃ©lix") {
-				parler("Non," + ' ' + gaulois.getNom() + ' ' + "Non!... Et tu le sais trÃ¨s bien!");	
+			if (gaulois.getNom() == "Obélix") {
+				parler("Non," + ' ' + gaulois.getNom() + ' ' + "Non!... Et tu le sais très bien!");	
 			}
 			else {
 				chaudron.prendreLouche();
@@ -42,7 +42,7 @@ public class Druide {
 			}
 		}
 		else {
-			parler("DÃ©solÃ©" + ' ' + gaulois.getNom() +' ' + "il n'y a plus une seule goutte de potion.");
+			parler("Désolé" + ' ' + gaulois.getNom() +' ' + "il n'y a plus une seule goutte de potion.");
 		}	
 	}
 	
